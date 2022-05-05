@@ -5,6 +5,12 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+#body {
+  background-color: #90e0ef;
+  overflow-x: hidden;
+  padding: 0;
+}
+
 #mainNavbar .navbar-brand {
   font-size: 2rem;
   display: flex;
@@ -19,4 +25,8 @@ body {
 .nav-item .nav-link {
   font-size: 1.125rem;
   padding: 0.5rem 2rem;
+}
+
+#content {
+  margin-top: 7rem;
 }
