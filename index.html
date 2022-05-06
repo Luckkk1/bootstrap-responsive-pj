@@ -31,7 +31,7 @@
 
   <body id="body">
     <nav
-      class="navbar navbar-dark navbar-expand-sm fixed-top px-4"
+      class="navbar navbar-dark navbar-expand-md fixed-top px-4"
       id="mainNavbar"
     >
       <a href="#" class="navbar-brand">XXXXXXXX</a>
@@ -43,7 +43,10 @@
       >
         <div class="navbar-toggler-icon"></div>
       </button>
-      <div class="collapse navbar-collapse" id="navExpandMenu">
+      <div
+        class="collapse navbar-collapse justify-content-between"
+        id="navExpandMenu"
+      >
         <ul class="navbar-nav">
           <li class="nav-item">
             <a href="#" class="nav-link text-white">HOME</a>
@@ -58,12 +61,16 @@
             <a href="#" class="nav-link text-white">KID</a>
           </li>
         </ul>
+        <div class="d-flex">
+          <input class="form-control" placeholder="Search" type="search" />
+          <button class="btn btn-dark">Search</button>
+        </div>
       </div>
     </nav>
 
     <section class="container-fluid px-0 mx-0">
       <video
-        class="mainHomeVideo w-100"
+        class="mainHomeVideo d-block"
         src="videos/mainVideo.mp4"
         type="video/mp4"
         autoplay
@@ -71,9 +78,9 @@
       ></video>
     </section>
 
-    <section class="container-fluid px-0 mx-0">
-      <div class="row" id="content">
-        <div class="col-md-7 p-0 d-flex align-items-center">
+    <section class="container-fluid px-5 mx-0">
+      <div class="row flex-column-reverse flex-md-row" id="content">
+        <div class="col-md-7 p-0 d-md-flex align-items-center row-cols-1">
           <div class="col-md-6">
             <img src="imgs/man2.jpg" alt="" class="img-fluid w-100" />
           </div>
@@ -82,7 +89,7 @@
           </div>
         </div>
         <div class="col-md-5 p-0 m-0">
-          <img src="imgs/blueWoman.jpg" alt="" class="img-fluid w-100" />
+          <img src="imgs/blueWoman.jpg" alt="" class="img-fluid" />
         </div>
       </div>
     </section>

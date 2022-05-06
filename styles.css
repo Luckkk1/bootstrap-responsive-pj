@@ -7,7 +7,6 @@ body {
 
 #body {
   background-color: #90e0ef;
-  overflow-x: hidden;
   padding: 0;
 }
 
@@ -29,4 +28,8 @@ body {
 
 #content {
   margin-top: 7rem;
+}
+
+.mainHomeVideo {
+  width: 100%;
 }
