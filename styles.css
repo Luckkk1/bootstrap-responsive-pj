@@ -51,3 +51,32 @@ body {
     margin-top: 4rem;
   }
 }
+
+@media screen and (max-width: 766px) {
+  #mainNavbar {
+    background-color: #023e8a;
+    padding: 0;
+  }
+
+  .navbar-brand {
+    margin: 0 1rem;
+  }
+
+  #navExpandBtn {
+    margin-right: 1rem;
+    background-color: #023e8a;
+  }
+
+  .navbar-nav {
+    background-color: #023e8a;
+  }
+
+  .nav-link {
+    margin: 0 1rem;
+    padding-bottom: 1rem;
+  }
+
+  #navSearch {
+    margin: 0 1rem;
+  }
+}
